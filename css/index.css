@@ -1,22 +1,19 @@
+/*
 :root {
-    /* text colors */
     --primary-color: #212121;
     --secondary-color: #757575;
     --acent-color: #2196F3;
     --black-color: #000000;
-    /* background colors */
     --white-color: #FFFFFF;
     --header-footer-color: #2F303A;
     --gray-color: #F5F4FA;
-    /* fonts */
     --main-font: 'Roboto', sans-serif;
     --secondary-font: 'Raleway', sans-serif;
-    /* sizes */
     --title-size: 36px;
     --text-size: 14px;
-    /*Animation color*/
     --animation: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+
 
 ul {
     list-style: none;
@@ -28,6 +25,7 @@ ul {
     box-sizing: border-box;
 } */
 
+/*
 h1,
 h2,
 h3,
@@ -83,7 +81,7 @@ p {
 /*.nav__list .nav__item:not(:last-child) {
     margin-right: 50px;
 }*/
-
+/*
 .nav__list .nav__item + .nav__item {
     margin-left: 50px;
 }
@@ -304,6 +302,7 @@ p {
     margin-left: 30px;
 }
 */
+/*
 .title {
     color: var(--primary-color);
 }
@@ -499,7 +498,6 @@ p {
 
 .container--line {
     display: flex;
-    /*gap: 70px;*/
     align-items: baseline;
 }
 
@@ -664,7 +662,7 @@ input[placeholder] {
 }
 
 /* Modal Window*/
-
+/*
 .backdrop {
     position: fixed;
     top: 0;
@@ -729,12 +727,10 @@ input[placeholder] {
     letter-spacing: 0.03em;
     color: rgba(33, 33, 33, 1);
     margin-bottom: 12px;
-    /*margin-top: 40px;*/
 }
 
 .register-form-group {
     margin-bottom: 20px;
-    /*margin-left: 41px;*/
 }
 
 .modal-label {
@@ -841,7 +837,6 @@ input[placeholder] {
 .input-checkbox:checked + .icon {
     border-color: var(--acent-color);
     background-color: var(--acent-color);
-    /*background-image: url(../img/svg/checked.svg);*/
     background-size: contain;
     background-origin: border-box;
 }
